@@ -1,0 +1,1 @@
+# User Profile Cache JSON vs Hash
