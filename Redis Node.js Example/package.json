@@ -1,0 +1,12 @@
+{
+  "name": "redis-nodejs-example",
+  "version": "1.0.0",
+  "description": "A simple Node.js example using Redis",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.0",
+    "redis": "^6.0.0"
+  }
+}
