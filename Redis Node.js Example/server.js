@@ -28,9 +28,7 @@ app.get('/photos', async (req, res) => {
 
         console.log('Cache Miss');
 
-        const response = await fetch(
-            'https://jsonplaceholder.typicode.com/photos'
-        );
+        const response = await fetch('https://jsonplaceholder.typicode.com/photos');
 
         const data = await response.json();
 
@@ -43,9 +41,7 @@ app.get('/photos', async (req, res) => {
         res.json(data);
     } catch (error) {
         console.error(error);
-        res.status(500).json({
-            error: 'Internal Server Error',
-        });
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
