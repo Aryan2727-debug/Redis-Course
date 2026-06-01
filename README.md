@@ -1,0 +1,1 @@
+# Redis learning material, notes and beginner-friendly projects.
